@@ -1,3 +1,40 @@
 .row{
     padding-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+
+.jumbotron{
+    background-color:  #365a88;
+    color: white;
+}
+
+.btn{
+    background-color: #405f89;
+    border-color: #365a88;
+}
+
+.btn:hover{
+    background-color: #2a3e5a;
+    border-color: #2a3e5a;
+}
+
+.btn:focus{
+    background-color: #2a3e5a;
+    border-color: #2a3e5a;
+    box-shadow: 0 0 0 .2rem rgba(42, 62, 90, .5);
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.footer {
+    height: 100%;
+    width: 100%;
+    margin-bottom: 0px !important;
+    margin-top: 10px;
+    background-color: #365a88;
+    color: white;
+    text-align: center;
+ }
+
+p{
+    margin-bottom: 0px;
 }
